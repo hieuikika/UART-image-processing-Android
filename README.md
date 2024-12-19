@@ -1,42 +1,38 @@
-# Android Object Detection
+# Phát Hiện Đối Tượng Trên Android
 
 <img width="100" alt="icon-image-detection" src="app/src/main/res/drawable/icon.png">
 
-## Screenshots
-<img width="200" alt="sc-image-detection-1" src="https://github.com/ikhwanhanif/Deteksi_Objek/assets/108711453/f6f71790-00c9-459a-9c78-092dc66b338c">
-<img width="200" alt="sc-image-detection-2" src="https://github.com/ikhwanhanif/Deteksi_Objek/assets/108711453/14c1efad-c1d1-4785-8210-8aefd557690d">
+## Ảnh Màn Hình  
+<img width="200" alt="sc-image-detection-1" src="https://github.com/ikhwanhanif/Deteksi_Objek/assets/108711453/f6f71790-00c9-459a-9c78-092dc66b338c">  
+<img width="200" alt="sc-image-detection-2" src="https://github.com/ikhwanhanif/Deteksi_Objek/assets/108711453/14c1efad-c1d1-4785-8210-8aefd557690d">  
 
-## Description
-Android Object Detection is a simple application that allows users to detect objects using their Android device camera. The application provides two modes: real-time detection and detection from user-selected images.
+## Mô Tả  
+Phát Hiện Đối Tượng Trên Android là một ứng dụng đơn giản cho phép người dùng phát hiện các đối tượng bằng camera trên thiết bị Android. Ứng dụng cung cấp hai chế độ: phát hiện thời gian thực và phát hiện từ hình ảnh do người dùng chọn.  
 
-## Key Features
-- Real-time object detection using the device camera.
-- Object detection from user-selected images.
-- Simple and user-friendly interface.
-- Integration with Firebase ML Kit for object detection.
+## Tính Năng Chính  
+- Phát hiện đối tượng thời gian thực bằng camera trên thiết bị.  
+- Phát hiện đối tượng từ hình ảnh do người dùng chọn.  
+- Giao diện đơn giản và thân thiện với người dùng.  
+- Tích hợp Firebase ML Kit để phát hiện đối tượng.  
 
-## How to Use
-1. Open the application on your Android device.
-2. Choose the detection mode: "Real-Time" or "From Image".
-3. For "Real-Time" mode: Point the camera at the object you want to detect. Objects will be highlighted in real-time on the screen.
-4. For "From Image" mode: Select an image from your device gallery. Objects in the image will be detected and displayed.
+## Cách Sử Dụng  
+1. Mở ứng dụng trên thiết bị Android của bạn.  
+2. Chọn chế độ phát hiện: "Thời Gian Thực" hoặc "Từ Hình Ảnh".  
+3. Với chế độ "Thời Gian Thực": Hướng camera đến đối tượng bạn muốn phát hiện. Các đối tượng sẽ được làm nổi bật theo thời gian thực trên màn hình.  
+4. Với chế độ "Từ Hình Ảnh": Chọn một hình ảnh từ thư viện của thiết bị. Các đối tượng trong hình ảnh sẽ được phát hiện và hiển thị.  
 
-## Technologies Used
-- Programming Language: Java
-- Android SDK
-- Firebase ML Kit
+## Công Nghệ Sử Dụng  
+- Ngôn ngữ lập trình: Java  
+- Android SDK  
+- Firebase ML Kit  
 
-## Installation
-1. Clone this repository to your local device.
-2. Open the project using Android Studio.
-3. Run the project on your Android device or emulator.
+## Hướng Dẫn Cài Đặt  
+1. Clone repository này về thiết bị của bạn.  
+2. Mở dự án bằng Android Studio.  
+3. Chạy dự án trên thiết bị Android hoặc trình giả lập.  
 
-## Contribution
-Contributions and suggestions for improvement are always welcome. If you would like to contribute to this project, please create a pull request.
+## Đóng Góp  
+Chúng tôi luôn hoan nghênh các đóng góp và đề xuất cải tiến. Nếu bạn muốn đóng góp cho dự án này, hãy tạo một pull request.  
 
-## License
-This project is licensed under the [MIT License](LICENSE.txt).
-
-
-
-
+## Giấy Phép  
+Dự án này được cấp phép theo [MIT License](LICENSE.txt).  
