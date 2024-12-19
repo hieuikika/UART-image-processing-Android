@@ -3,12 +3,9 @@
 <img width="100" alt="icon-image-detection" src="app/src/main/res/drawable/icon.png">
 
 ## video demo  
- 
 
-<video width="400" controls>
-  <source src="https://drive.google.com/uc?id=1I_TOUaBGab6d6XzOKA1KlsAntyYz1El2&export=download" type="video/mp4">
-  Trình duyệt của bạn không hỗ trợ video.
-</video>
+[Nhấn vào đây để xem video](https://drive.google.com/file/d/1I_TOUaBGab6d6XzOKA1KlsAntyYz1El2/view?usp=sharing)
+
 
 
 
