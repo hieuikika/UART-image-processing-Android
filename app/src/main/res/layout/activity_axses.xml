@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AxsesActivity">
+
+    <!-- TextureView với kích thước hình vuông -->
+    <TextureView
+        android:id="@+id/textureView"
+        android:layout_width="410dp"
+        android:layout_height="410dp"
+        android:layout_centerInParent="true" />
+
+    <!-- ImageView với kích thước hình vuông -->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="410dp"
+        android:layout_height="410dp"
+        android:background="#000"
+        android:layout_centerInParent="true" />
+    <Button
+        android:id="@+id/btn_flashlight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bật Đèn"
+        android:layout_margin="16dp"
+        android:layout_gravity="bottom|center_horizontal"
+        />
+
+    <!-- LinearLayout chứa EditText và Button, căn chỉnh ở dưới cùng của màn hình -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:gravity="center">
+
+        <!-- EditText cho phép người dùng nhập chữ -->
+        <EditText
+            android:id="@+id/editTextInput"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Nhập tên vật thể..."
+            android:minHeight="48dp"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:textSize="18sp"
+            android:layout_marginEnd="10dp"
+            android:imeOptions="actionDone"
+            android:inputType="text" />
+
+        <!-- Button chuyển đổi camera -->
+        <Button
+            android:id="@+id/switchCameraButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chuyển Đổi Camera"
+            android:onClick="onSwitchCameraButtonClick" />
+    </LinearLayout>
+
+    <!-- Văn bản bản quyền -->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        android:background="#FFFCFC"
+        android:text="© 2024 Trần Trọng Hiếu, K61, Kỹ Thuật Điện, UTC. All rights reserved."
+        android:contentDescription="Bản quyền © 2024 Trần Trọng Hiếu"
+        android:textSize="10sp"
+        android:textColor="@color/black" />
+</RelativeLayout>
