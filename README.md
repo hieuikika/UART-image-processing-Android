@@ -1,4 +1,4 @@
-# Phát Hiện Đối Tượng Trên Android
+# Phát Hiện Và Bám Đối Tượng hoặc Vật Thể Trên Android
 
 <img width="100" alt="icon-image-detection" src="app/src/main/res/drawable/icon.png">
 
